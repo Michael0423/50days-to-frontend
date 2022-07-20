@@ -6,6 +6,10 @@ const data = [
     {
         "name": 'Expanding Cards',
         "url": "./01Expanding-Cards"
+    },
+    {
+        "name": 'Progress Steps',
+        "url": "./02Progress-Steps"
     }
 ];
 
