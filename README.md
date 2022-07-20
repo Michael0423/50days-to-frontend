@@ -2,4 +2,6 @@
 
 A Project to practice Frontend skill.
 
-+ [Day 1](https://Michael0423.github.io/01Expanding-Cards)
+|  #  |  Project | Live Demo |
+| :-: | --- | --- |
+| Day 1 | Expanding Card | [Demo](https://michael0423.github.io/50days-to-frontend/01Expanding-Cards) |
