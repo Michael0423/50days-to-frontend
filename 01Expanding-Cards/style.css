@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block {
+    margin: 15px;
+    height: 80vh;
+    flex: 1;
+    border-radius: 50px;
+    background-color: var(--backgroundColor);
+    transition: 1s ease;
+}
+
+.block.active {
+    flex: 5;
+}
