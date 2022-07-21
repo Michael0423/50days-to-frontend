@@ -1,0 +1,97 @@
+:root {
+    --menuBtnSize: 200px;
+}
+
+body {
+    background-color: #333;
+}
+
+#app {
+    background-color: #333;
+}
+
+.menu-btn-area {
+    position: fixed;
+    top: calc(-0.5 * var(--menuBtnSize));
+    left: calc(-0.5 * var(--menuBtnSize));
+    width: var(--menuBtnSize);
+    height: var(--menuBtnSize);
+    border-radius: 50%;
+    background-color: #ff7979;
+    z-index: 1;
+    display: flex;
+}
+
+.menu-btn-area .menu-btn {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s ease;
+}
+.menu-btn-area .menu-btn i:nth-child(1) {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+}
+.menu-btn-area .menu-btn i:nth-child(2) {
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+}
+.menu-btn-area .menu-btn i:hover {
+    cursor: pointer;
+}
+
+.menus {
+    position: fixed;
+    bottom: 10%;
+    left: -50%;
+    color: white;
+    transition: 1s ease;
+}
+.menus div {
+    margin: 20px 0;
+    padding-bottom: 3px;
+    transition: 1s ease;
+}
+.menus div:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    transition: 1s ease;
+    transform-origin: top left;
+}
+.article {
+    margin: 50px auto;
+    width: 60%;
+    height: 100%;
+}
+
+/* animate */
+#app.show-menu .menus {
+    left: 30px;
+}
+#app.show-menu .menus div:nth-child(1) {
+    transform: translateX(10px);
+}
+#app.show-menu .menus div:nth-child(2) {
+    transform: translateX(30px);
+}
+#app.show-menu .menus div:nth-child(3) {
+    transform: translateX(50px);
+}
+
+#app.show-menu .menu-btn {
+    transform: rotate(-90deg);
+}
+
+#app.show-menu .content {
+    transform: rotate(-20deg);
+}

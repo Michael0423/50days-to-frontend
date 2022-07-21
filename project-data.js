@@ -10,6 +10,10 @@ const data = [
     {
         "name": 'Progress Steps',
         "url": "./02Progress-Steps"
+    },
+    {
+        "name": 'Rotating Navigation',
+        "url": "./03Rotating-Navigation"
     }
 ];
 
