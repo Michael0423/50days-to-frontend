@@ -14,6 +14,10 @@ const data = [
     {
         "name": 'Rotating Navigation',
         "url": "./03Rotating-Navigation"
+    },
+    {
+        "name": 'Hidden Search Widget',
+        "url": "./04Hidden-Search-Widget"
     }
 ];
 
