@@ -18,6 +18,10 @@ const data = [
     {
         "name": 'Hidden Search Widget',
         "url": "./04Hidden-Search-Widget"
+    },
+    {
+        "name": 'Blurry Loadging',
+        "url": "./05blurry-loading"
     }
 ];
 

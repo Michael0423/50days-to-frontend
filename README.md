@@ -1,4 +1,4 @@
-# 50 Projects 50 Days
+# 50 Projects 50 Days (in progress)
 
 A Project to practice Frontend skill.
 
@@ -8,3 +8,4 @@ A Project to practice Frontend skill.
 | Day 2 | Progress Step | [Demo](https://michael0423.github.io/50projects50days/02Progress-Steps) |
 | Day 3 | Rotating Navigation | [Demo](https://michael0423.github.io/50projects50days/03Rotating-Navigation) |
 | Day 4 | Hidden Search Widget | [Demo](https://michael0423.github.io/50projects50days/04Hidden-Search-Widget) |
+| Day 5 | Blurry Loading | [Demo](https://michael0423.github.io/50projects50days/05blurry-loading) |
