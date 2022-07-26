@@ -22,7 +22,12 @@ const data = [
     {
         "name": 'Blurry Loadging',
         "url": "./05blurry-loading"
+    },
+    {
+        "name": 'Scroll Animation',
+        "url": "./06scroll-animation"
     }
+    
 ];
 
 export { data };
