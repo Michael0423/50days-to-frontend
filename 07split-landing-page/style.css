@@ -1,6 +1,9 @@
 :root {
     --boxCount: 3;
     --transitionTime: 1s;
+    --btnOneColor: #223cde;
+    --btnTwoColor: #0f7c0f;
+    --btnThreeColor: #e50014;
 }
 
 body {
@@ -41,12 +44,12 @@ body {
 .box:nth-child(1) .btn {
     border: 3px solid;
     padding: 15px;
-    color: #223cde;
+    color: var(--btnOneColor);
 }
 .box:nth-child(1) .btn:hover {
     color: white;
-    background-color: #223cde;
-    border-color: #223cde;
+    background-color: var(--btnOneColor);
+    border-color: var(--btnOneColor);
 }
 
 .box:nth-child(2) {
@@ -56,12 +59,12 @@ body {
 .box:nth-child(2) .btn {
     border: 3px solid;
     padding: 15px;
-    color: #0f7c0f;
+    color: var(--btnTwoColor);
 }
 .box:nth-child(2) .btn:hover {
     color: white;
-    background-color: #0f7c0f;
-    border-color: #0f7c0f;
+    background-color: var(--btnTwoColor);
+    border-color: var(--btnTwoColor);
 }
 
 .box:nth-child(3) {
@@ -71,12 +74,12 @@ body {
 .box:nth-child(3) .btn {
     border: 3px solid;
     padding: 15px;
-    color: #e50014;
+    color: var(--btnThreeColor);
 }
 .box:nth-child(3) .btn:hover {
     color: white;
-    background-color: #e50014;
-    border-color: #e50014;
+    background-color: var(--btnThreeColor);
+    border-color: var(--btnThreeColor);
 }
 
 .box.active {
