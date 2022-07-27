@@ -26,6 +26,10 @@ const data = [
     {
         "name": 'Scroll Animation',
         "url": "./06scroll-animation"
+    },
+    {
+        "name": 'Split Landing Page',
+        "url": "./07split-landing-page"
     }
     
 ];

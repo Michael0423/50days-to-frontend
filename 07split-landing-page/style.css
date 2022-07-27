@@ -1,0 +1,85 @@
+:root {
+    --boxCount: 3;
+    --transitionTime: 1s;
+}
+
+body {
+    display: block !important;
+}
+#app {
+    display: flex;
+}
+
+.box {
+    transition: flex var(--transitionTime) ease;
+    height: 100vh;
+    flex:1;
+    
+    width: calc(100% / var(--boxCount));
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: opacity(1) grayscale(0.3);
+
+    color: white;
+    font-weight: bolder;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box .btn {
+    background-color: white;
+}
+
+.box:nth-child(1) {
+    background-image: url('./ps5.jpg');
+}
+
+.box:nth-child(1) .btn {
+    border: 3px solid;
+    padding: 15px;
+    color: #223cde;
+}
+.box:nth-child(1) .btn:hover {
+    color: white;
+    background-color: #223cde;
+    border-color: #223cde;
+}
+
+.box:nth-child(2) {
+    background-image: url('./xbox.jpg');
+}
+
+.box:nth-child(2) .btn {
+    border: 3px solid;
+    padding: 15px;
+    color: #0f7c0f;
+}
+.box:nth-child(2) .btn:hover {
+    color: white;
+    background-color: #0f7c0f;
+    border-color: #0f7c0f;
+}
+
+.box:nth-child(3) {
+    background-image: url('./NS.jpg');
+}
+
+.box:nth-child(3) .btn {
+    border: 3px solid;
+    padding: 15px;
+    color: #e50014;
+}
+.box:nth-child(3) .btn:hover {
+    color: white;
+    background-color: #e50014;
+    border-color: #e50014;
+}
+
+.box.active {
+    flex: 5;
+    filter: opacity(1) grayscale(0);
+}
