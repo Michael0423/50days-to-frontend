@@ -30,6 +30,10 @@ const data = [
     {
         "name": 'Split Landing Page',
         "url": "./07split-landing-page"
+    },
+    {
+        "name": 'Form Wave',
+        "url": "./08form-wave"
     }
     
 ];
