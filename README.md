@@ -12,3 +12,4 @@ A Project to practice Frontend skill.
 | Day 6 | Scroll Animation | [Demo](https://michael0423.github.io/50projects50days/06scroll-animation) |
 | Day 7 | Split Landing Page | [Demo](https://michael0423.github.io/50projects50days/07split-landing-page) |
 | Day 8 | Form Wave | [Demo](https://michael0423.github.io/50projects50days/08form-wave) |
+| Day 9 | sound Board | [Demo](https://michael0423.github.io/50projects50days/09sound-board) |

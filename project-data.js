@@ -34,6 +34,10 @@ const data = [
     {
         "name": 'Form Wave',
         "url": "./08form-wave"
+    },
+    {
+        "name": 'sound Board',
+        "url": "./09sound-board"
     }
     
 ];
