@@ -38,6 +38,10 @@ const data = [
     {
         "name": 'sound Board',
         "url": "./09sound-board"
+    },
+    {
+        "name": 'Random Jokes',
+        "url": "./10random-jokes"
     }
     
 ];
