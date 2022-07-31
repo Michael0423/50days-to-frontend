@@ -8,7 +8,22 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.joke-box{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+}
+
+.joke-box .joke {
+    max-width: 65vw;
+    font-size: 2em;
+    margin-bottom: 15px;
 }
 
 .btn {
