@@ -18,8 +18,8 @@ async function getJoke() {
 function generateJoke() {
     const jokeDiv = document.getElementById('joke');
 
-    new Promise(getJoke())
-        .then(joke => {
+    Promise.all([getJoke()])
+        .then(([joke]) => {
             jokeDiv.innerHTML = joke;
         })
         .catch(err => {
