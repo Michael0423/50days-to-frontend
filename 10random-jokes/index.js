@@ -10,7 +10,7 @@ async function getJoke() {
         headers: {
             Accept: 'application/json'
         }
-    }).then(res => res.json().joke);
+    }).then(res => res.json()).then(res => res.joke);
 
     return joke;
 }
