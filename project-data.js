@@ -42,6 +42,10 @@ const data = [
     {
         "name": 'Random Jokes',
         "url": "./10random-jokes"
+    },
+    {
+        "name": 'Event Keycodes',
+        "url": "./11event-keycodes"
     }
     
 ];
