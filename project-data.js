@@ -46,6 +46,10 @@ const data = [
     {
         "name": 'Event Keycodes',
         "url": "./11event-keycodes"
+    },
+    {
+        "name": 'Faq Collapse',
+        "url": "./12faq-collapse"
     }
     
 ];

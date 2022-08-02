@@ -15,3 +15,4 @@ A Project to practice Frontend skill.
 | Day 9 | sound Board | [Demo](https://michael0423.github.io/50projects50days/09sound-board) |
 | Day 10 | Random Jokes | [Demo](https://michael0423.github.io/50projects50days/10random-jokes) |
 | Day 11 | Event Keycodes | [Demo](https://michael0423.github.io/50projects50days/11event-keycodes) |
+| Day 12 | Faq Collapse | [Demo](https://michael0423.github.io/50projects50days/12faq-collapse) |
