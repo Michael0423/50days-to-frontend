@@ -1,0 +1,30 @@
+body {
+    position: relative;
+    background-color: #2b88f0;
+    color: white;
+}
+
+#app {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 900;
+}
+
+textarea {
+    margin-bottom: 20px;
+}
+
+#tags {
+    display: block;
+}
+
+#tags .tag {
+    border-radius: 50px;
+    background-color: #f0932b;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+}
+
+#tags .tag.selected {
+    background-color: #273c75;
+}

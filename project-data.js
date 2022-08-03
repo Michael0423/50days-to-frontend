@@ -50,6 +50,10 @@ const data = [
     {
         "name": 'Faq Collapse',
         "url": "./12faq-collapse"
+    },
+    {
+        "name": 'Random Choice Picker',
+        "url": "./13random-choice-picker"
     }
     
 ];
