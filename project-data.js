@@ -54,6 +54,10 @@ const data = [
     {
         "name": 'Random Choice Picker',
         "url": "./13random-choice-picker"
+    },
+    {
+        "name": 'Animated Navigation',
+        "url": "./14animated-navigation"
     }
     
 ];

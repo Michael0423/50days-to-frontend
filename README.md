@@ -17,3 +17,4 @@ A Project to practice Frontend skill.
 | Day 11 | Event Keycodes | [Demo](https://michael0423.github.io/50projects50days/11event-keycodes) |
 | Day 12 | Faq Collapse | [Demo](https://michael0423.github.io/50projects50days/12faq-collapse) |
 | Day 13 | Random Choice Picker | [Demo](https://michael0423.github.io/50projects50days/13random-choice-picker) |
+| Day 14 | Animated Navigation | [Demo](https://michael0423.github.io/50projects50days/14animated-navigation) |

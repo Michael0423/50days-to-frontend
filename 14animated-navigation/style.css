@@ -1,0 +1,86 @@
+#app {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #eafbff  50%, #5290f9 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    transition: width 1s ease;
+}
+.nav.open {
+    width: 400px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    transition: width 1s ease;
+    font-size: 1.3em;
+}
+
+.nav.open ul {
+    opacity: 1;
+    width: 100%;
+}
+
+.nav li {
+    opacity: 0;
+    transition: transform 0.6s linear, opacity 0.6s linear;
+}
+
+.nav.open li {
+    opacity: 1;
+    transform: rotateY(360deg);
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+
+
+button {
+    width: 85px;
+    height: 60px;
+    background: none;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    background-color: #5290f9;
+    width: 35px;
+    height: 5px;
+    transform: rotate(0);
+    transition: transform 1s ease;
+}
+
+.nav .line1 {
+    position: absolute;
+    top: 20px;
+}
+.nav .line2 {
+    position: absolute;
+    top: 35px;
+}
+.nav.open .line1 {
+    transform: rotate(-765deg) translateY(9.5px);
+}
+.nav.open .line2 {
+    transform: rotate(765deg) translateY(-9.5px);
+}
