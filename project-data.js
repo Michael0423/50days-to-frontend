@@ -58,6 +58,10 @@ const data = [
     {
         "name": 'Animated Navigation',
         "url": "./14animated-navigation"
+    },
+    {
+        "name": 'Incrementing Counter',
+        "url": "./15incrementing-counter"
     }
     
 ];
