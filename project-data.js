@@ -62,6 +62,10 @@ const data = [
     {
         "name": 'Incrementing Counter',
         "url": "./15incrementing-counter"
+    },
+    {
+        "name": 'Drink Water',
+        "url": "./16drink-water"
     }
     
 ];
