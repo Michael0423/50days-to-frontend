@@ -1,0 +1,91 @@
+:root {
+    --backgroundColor: #22254b;
+    --headerColor: #373b69;
+}
+
+body {
+    display: block !important;
+    height: auto;
+    width: auto;
+    background-color: var(--backgroundColor);
+    font-size: 1.2em;
+}    
+
+#app header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: var(--headerColor);
+}
+#search {
+    font-size: 1em;
+    border: 2px solid var(--backgroundColor);
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: var(--headerColor);
+    color: white;
+}
+#search:focus {
+    background-color: var(--backgroundColor);
+    outline: none;
+}
+
+#movie_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 300px;
+    background-color: #373b69;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .overview {
+    transition: .5s ease;
+    transform: translateY(0);
+}
+
+.box img {
+    width: 100%;
+}
+
+.box .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.box .info .score {
+    background-color: var(--backgroundColor);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.score.high {
+    color: lightgreen;
+}
+.score.mid {
+    color: orange;
+}
+.score.low {
+    color: red;
+}
+
+.box .overview {
+    background-color: white;
+    color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    transform: translateY(101%);
+    transition: .5s ease;
+}
+.box .overview .title {
+    font-weight: 900;
+}
