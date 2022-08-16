@@ -21,3 +21,4 @@ A Project to practice Frontend skill.
 | Day 15 | Incrementing Counter | [Demo](https://michael0423.github.io/50projects50days/15incrementing-counter) |
 | Day 16 | Drink Water | [Demo](https://michael0423.github.io/50projects50days/16drink-water) |
 | Day 17 | Movie App | [Demo](https://michael0423.github.io/50projects50days/17movie-app) |
+| Day 18 | Background Slider | [Demo](https://michael0423.github.io/50projects50days/18background-slider) |

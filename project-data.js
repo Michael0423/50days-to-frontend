@@ -70,6 +70,10 @@ const data = [
     {
         "name": 'Movie App',
         "url": "./17movie-app"
+    },
+    {
+        "name": 'Background Slider',
+        "url": "./18background-slider"
     }
     
 ];
