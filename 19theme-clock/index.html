@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Clock</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../main.css">
+</head>
+
+<body>
+
+    <div id="app">
+        <div>
+            <button id="switch_mode_btn">Dark mode</button>
+        </div>
+        
+        <div id="clock">
+            <div id="hour_bar" class="bar"></div>
+            <div id="min_bar" class="bar"></div>
+            <div id="second_bar" class="bar"></div>
+            
+            <div class="dot" style="width: 10px;height: 10px;border-radius: 50%;background-color: red;position: absolute;top: calc(50% - 5px);left: calc(50% - 4px);">&nbsp;</div>
+            <div class="dot" style="width: 6px;height: 6px;border-radius: 50%;background-color: black;position: absolute;top: calc(50% - 3px);left: calc(50% - 2px);">&nbsp;</div>
+        </div>
+        <div id="time">
+            <div id="hour"></div>
+            <div id="colon" class="show">:</div>
+            <div id="min"></div>
+            <div id="am_pm"></div>
+        </div>
+        <div id="date">
+            <div id="weekday"></div>
+            <div id="month"></div>
+            <div id="day"></div>
+        </div>
+    </div>
+
+    <a href="../">
+        <div class="back-btn"><i class="fa-solid fa-rotate-left"></i></div>
+    </a>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

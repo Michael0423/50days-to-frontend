@@ -74,6 +74,10 @@ const data = [
     {
         "name": 'Background Slider',
         "url": "./18background-slider"
+    },
+    {
+        "name": 'Theme Clock',
+        "url": "./19theme-clock"
     }
     
 ];
