@@ -78,6 +78,10 @@ const data = [
     {
         "name": 'Theme Clock',
         "url": "./19theme-clock"
+    },
+    {
+        "name": 'Button Ripple Effect',
+        "url": "./20button-ripple-effect"
     }
     
 ];
