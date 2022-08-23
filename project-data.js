@@ -82,6 +82,10 @@ const data = [
     {
         "name": 'Button Ripple Effect',
         "url": "./20button-ripple-effect"
+    },
+    {
+        "name": 'Drag N Drop',
+        "url": "./21drag-n-drop"
     }
     
 ];
