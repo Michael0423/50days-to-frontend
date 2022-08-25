@@ -1,0 +1,73 @@
+body {
+    display: block !important;
+    background-color: black;
+}
+
+#app {
+    margin: auto;
+    width: 80vw;
+    height: calc(100% - 6px);
+    background-color: white;
+    border: 3px solid gray;
+    position: relative;
+}
+
+#canvas {
+}
+
+.control-box {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.control-box .size-control {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    margin-left: 30px;
+}
+.control-box .size-control div {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.control-box .size-control div:not(:nth-child(2)):hover {
+    cursor: pointer;
+}
+
+.control-box .size-control #size {
+    background: none;
+    height: 50px;
+    border: none;
+}
+
+.control-box .size-control #color {
+    background: none;
+    height: 50px;
+}
+
+.control-box #refreash_btn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.control-box #refreash_btn:hover {
+    cursor: pointer;
+}

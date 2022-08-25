@@ -86,6 +86,10 @@ const data = [
     {
         "name": 'Drag N Drop',
         "url": "./21drag-n-drop"
+    },
+    {
+        "name": 'Drawing App',
+        "url": "./22drawing-app"
     }
     
 ];
