@@ -90,6 +90,10 @@ const data = [
     {
         "name": 'Drawing App',
         "url": "./22drawing-app"
+    },
+    {
+        "name": 'Kinetic Loader',
+        "url": "./23kinetic-loader"
     }
     
 ];

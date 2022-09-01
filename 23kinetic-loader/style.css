@@ -1,0 +1,67 @@
+:root {
+    --bgColor: white;
+    --boxLen: 0;
+    --borderWidth: 50px;
+    --animationVar: 2s linear infinite;
+}
+
+body {
+    background-color: #2c3e50;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trangle1,
+.trangle2 {
+    width: var(--boxLen);
+    height: var(--boxLen);
+    position: absolute;
+}
+
+.trangle1 {
+    border: var(--borderWidth) solid transparent;
+    border-left-color: var(--bgColor);
+    animation: rotate1 var(--animationVar);
+}
+
+.trangle2 {
+    border: var(--borderWidth) solid transparent;
+    border-bottom-color: var(--bgColor);
+    animation: rotate2 var(--animationVar);
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25%,
+    50% {
+        transform: rotate(180deg);
+    }
+
+    75%,
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0%,
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50%,
+    75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
